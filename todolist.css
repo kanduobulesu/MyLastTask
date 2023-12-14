@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #403c3c3e;
+  }
+  
+  .container {
+    text-align: center;
+    background-image: url(https://www.123rf.com/photo_56390593_things-to-do-background-template.html);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  input:hover {
+    background: black;
+    color: white;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ddd;
+    margin: 8px 0;
+    background-color: #91edf5;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
